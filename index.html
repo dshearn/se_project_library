@@ -4,21 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Practicum Library</title>
-    <link rel="stylesheet" href="./styles/normalize.css" />
-    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/style.css" />
   </head>
 
   <body>
     <div class="page">
-      <!-- Wrap the entire page content in a new div with the page class. Remember to add the closing tag -->
       <header class="header">
         <nav class="nav">
           <img
-            src="./images/logo.png"
+            src="images/logo.png"
             alt="Practicum Library Logo"
             class="logo"
           />
-          <!-- Putting navigation links in a list is supposed to be the best practice of writing the semantic code since it allows screen readers to pause between each link instead of reading all the links as a sentence. -->
           <ul class="nav__links">
             <li>
               <a href="#staff-picks" class="nav__link">Staff picks</a>
@@ -44,7 +42,7 @@
           study. This is a cool place for cool students!
         </p>
         <img
-          src="./images/inside_the_library.png"
+          src="images/inside_the_library.png"
           alt="Illustration 'Inside the
         library'"
           class="header__image"
@@ -61,7 +59,6 @@
         <section id="staff-picks" class="staff">
           <h2 class="staff__title">Staff picks</h2>
           <p class="staff__subtitle">That our readers love</p>
-          <!-- The ul tag (unordered list) is used here as it is a collection of cards for which the order doesn't really matter. -->
           <ul class="staff__cards">
             <li class="card">
               <div class="card__content">
@@ -165,11 +162,11 @@
             <a href="#" class="events__more">More events &rarr;</a>
           </div>
           <div class="events__cover">
-            <img src="./images/cafe.png" alt="cafe" class="events__image" />
+            <img src="images/cafe.png" alt="cafe" class="events__image" />
             <div class="person person_name_feynman">
               <p class="person__caption">Joan Feynman</p>
               <img
-                src="/images/person_feynman.png"
+                src="images/person_feynman.png"
                 alt="photo of Joan Feynman"
                 class="person__image person__image_size_1"
               />
@@ -177,7 +174,7 @@
             <div class="person person_name_burbidge">
               <p class="person__caption">Margret Burbidge</p>
               <img
-                src="./images/person_burbidge.png"
+                src="images/person_burbidge.png"
                 alt="photo of Margret
                   Burbidge"
                 class="person__image person__image_size_m"
@@ -185,7 +182,7 @@
             </div>
             <div class="person person_name_cannon">
               <img
-                src="./images/person_cannon.png"
+                src="images/person_cannon.png"
                 alt="photo of Annie Jump Cannon"
                 class="person__image person__image_size_m"
               />
@@ -193,7 +190,7 @@
             </div>
             <div class="person person_name_mitchell">
               <img
-                src="./images/person_mitchell.png"
+                src="images/person_mitchell.png"
                 alt="photo of Maria Mitchell"
                 class="person__image person__image_size_s"
               />
@@ -202,13 +199,12 @@
             <div class="person person_name_tarter">
               <p class="person__caption">Jill Tarter</p>
               <img
-                src="./images/person_tarter.png"
+                src="images/person_tarter.png"
                 alt="photo of Jill Tarter"
                 class="person__image person__image_size_m"
               />
             </div>
           </div>
-          <!-- Start creating the composition here -->
         </section>
 
         <section id="become-a-member" class="membership">
@@ -218,7 +214,7 @@
               <h3 class="step__title">
                 Step 1
                 <img
-                  src="./images/icon_step_forward.svg"
+                  src="images/icon_step_forward.svg"
                   alt="icon forward"
                   class="step__icon"
                 />
@@ -231,7 +227,7 @@
               <h3 class="step__title">
                 Step 2
                 <img
-                  src="./images/icon_step_forward.svg"
+                  src="images/icon_step_forward.svg"
                   alt="icon forward"
                   class="step__icon"
                 />
@@ -244,7 +240,7 @@
               <h3 class="step__title">
                 Step 3
                 <img
-                  src="./images/icon_step_forward.svg"
+                  src="images/icon_step_forward.svg"
                   alt="icon forward"
                   class="step__icon"
                 />
@@ -255,7 +251,7 @@
               <h3 class="step__title">
                 Step 4
                 <img
-                  src="./images/icon_step_finish.svg"
+                  src="images/icon_step_finish.svg"
                   alt="icon finish"
                   class="step__icon"
                 />
@@ -298,17 +294,17 @@
             </div>
           </div>
           <div class="footer__column footer__column_content_hours">
-            <h2 class="footer__heading">Hours</h2>
+            <h2 class="footer__column-heading">Hours</h2>
             <ul class="footer__list">
               <li class="footer__list-item">Weekdays: 9am-8pm</li>
               <li class="footer__list-items">Weekends: 10am-6pm</li>
             </ul>
           </div>
           <div class="footer__column footer__column_content_social">
-            <h2 class="footer__heading">Social Media</h2>
+            <h2 class="footer__column-heading">Social Media</h2>
             <ul class="footer__list">
               <li class="footer__list-item">
-                <a class="footer__list-link" href="#">
+                <a class="footer__column-link" href="#">
                   <img
                     class="footer__social-icon"
                     src="images/facebook_white.svg"
@@ -318,7 +314,7 @@
                 </a>
               </li>
               <li class="footer__list-item">
-                <a class="footer__list-link" href="#">
+                <a class="footer__column-link" href="#">
                   <img
                     class="footer__social-icon"
                     src="images/instagram_white.svg"
