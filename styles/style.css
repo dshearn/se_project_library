@@ -3,7 +3,7 @@
   min-width: 1100px;
   max-width: 1600px;
   margin: auto;
-  font-family: helvetica Neue, Arial, sans-serif;
+  font-family: "helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
 }
@@ -32,12 +32,13 @@
 
 .nav__links {
   list-style: none;
-  padding-left: 50;
+  padding-left: 50px;
   margin-top: 8px;
   display: flex;
   align-items: center;
   column-gap: 20px;
   justify-content: end;
+  margin-bottom: 0px;
 }
 
 .nav__link {
@@ -121,8 +122,8 @@
 .staff__cards {
   max-width: 760px;
   margin-top: 68px;
-  margin-left: 230px;
-  margin-right: 230px;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -339,8 +340,8 @@
   padding: 0;
   margin: 100px 0 0;
   display: flex;
-  flex-basis: 40px;
-  justify-content: space-around;
+  gap: 40px;
+  justify-content: center;
 
   /* Add styles */
 }
@@ -420,12 +421,13 @@
   box-sizing: border-box;
   background-color: #1f1f1f;
   color: #fff;
-  padding: 57px 102px 60px 80px;
+  padding: 60px 102px 60px 80px;
 }
 
 .footer__columns {
   display: flex;
   align-items: flex-start;
+  min-height: 224px;
 }
 
 .footer__column_content_hours {
@@ -437,13 +439,13 @@
 }
 
 .footer__logo {
-  margin-top: 17px;
-  width: 153px;
+  height: 21px;
+  width: 116px;
   justify-self: flex-start;
 }
 
 .footer__list {
-  /* The code below removes the default browser styles for lists */
+  /* The code below removes the default browser styles for lists test */
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -458,6 +460,7 @@
 
 .footer__column-heading {
   margin: 0 0 20px;
+  font-size: 16px;
 }
 
 .footer__column-link {
@@ -478,5 +481,5 @@
 }
 
 .footer__copyright {
-  margin: 108px 0 0;
+  margin: 80px 0 60px 0;
 }
