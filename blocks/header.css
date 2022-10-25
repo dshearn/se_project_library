@@ -10,11 +10,9 @@
   background-image: url("../images/background_header.svg");
   background-size: cover;
   background-position: center;
-  background-color: #ffffff;
   z-index: 0;
   display: flex;
   flex-direction: column;
-  position: relative;
 }
 
 .nav {
@@ -74,8 +72,6 @@
 }
 
 .header__description {
-  font-size: 20px;
-  line-height: 30px;
   margin: 32px 0 0;
   max-width: 683px;
   margin-left: 80px;
