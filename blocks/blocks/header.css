@@ -1,0 +1,122 @@
+.header {
+  background-color: #fff;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  padding-left: 30px;
+  padding-right: 80px;
+  position: relative;
+  box-sizing: border-box;
+  background-image: url("../images/background_header.svg");
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 125px;
+  height: 142px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.nav__link {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  align-items: top;
+  column-gap: 20px;
+  justify-content: flex-start;
+  margin-top: 30px;
+  right: 80px;
+  margin-bottom: 0px;
+  /* font*/
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.nav__link:hover {
+  color: #2f80ed;
+}
+
+.header__title {
+  margin-left: 80px;
+  padding-top: 80px;
+  max-width: 729px;
+  z-index: 2;
+  margin-bottom: 0px;
+  /* font*/
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+}
+.header__span-accent {
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: italic;
+  font-weight: normal;
+  color: #2f80ed;
+  display: block;
+}
+
+.header__description {
+  margin: 32px 0 0;
+  max-width: 683px;
+  margin-left: 80px;
+  margin-top: 28px;
+  margin-bottom: 0;
+  /* font*/
+  font-family: "Noto Serif", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.header__image {
+  max-height: 568px;
+  max-width: 646px;
+  z-index: 1;
+  position: absolute;
+  top: 124px;
+  right: 5px;
+  z-index: -1;
+}
+
+.header__footer {
+  display: flex;
+  color: #6f6f6f;
+  margin-top: auto;
+  justify-content: space-between;
+  align-items: flex-end;
+  /* font*/
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.header__hours {
+  margin-top: 0;
+  margin-left: 80px;
+}
+
+.header__paragraph {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.header__paragraph:last-child {
+  margin-bottom: 40px;
+  margin-right: 80px;
+}
